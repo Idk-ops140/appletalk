@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppleTalk Forum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AppleTalk Forum</h1>
+        <div class="user-input">
+            <input type="text" id="username" placeholder="Enter your username">
+            <label>
+                <input type="checkbox" id="rememberMe"> Remember me
+            </label>
+            <button onclick="addUser()">Add</button>
+        </div>
+        <div id="post-section" class="hidden">
+            <textarea id="postText" placeholder="Type your post here..."></textarea>
+            <button onclick="addPost()">Add Post</button>
+        </div>
+        <div id="posts"></div>
+        <a href="https://idk-ops140.github.io/apple/" target="_blank">Go to the game website</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
